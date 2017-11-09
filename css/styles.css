@@ -1,0 +1,253 @@
+/*-------main styles---------*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+	background: #f2f2f2;
+	max-width: 1220px;
+	margin: 0 auto;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: #8c8c8c;
+}
+
+a:hover {
+	color: #093a58;
+}
+
+h2,
+h3,
+h1 {
+	text-transform: uppercase;
+}
+
+h3,p{
+    font-size: 1em;
+}
+img {
+	width: 100%;
+}
+
+footer a {
+	float: right;
+	margin: 0;
+}
+
+footer h3 {
+	float: left;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+/* ---- Main ---- */
+main {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.section {
+    margin-top: 50px;    
+}
+
+/* ---- Navigation ---- */
+
+
+
+
+.main-nav li {
+	
+	background: #fff;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.main-nav a,
+.main-footer a {
+	font-size: .95em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+.footer-nav li{
+	display: none;
+}
+
+/* ---- Layout Containers ---- */
+.name {
+	font-size: 1.25em;
+}
+
+.my-info li {
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.li-html {
+	color: #002699;
+}
+
+.li-css {
+	color: #009933;
+}
+
+.li-js {
+	color: #ab2121;
+}
+
+.portfolio {
+	background: white;
+}
+
+.container {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.main-header {
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	margin-bottom: 30px;
+}
+
+.contact {
+	padding: 2em 0;
+}
+
+.main-footer {
+	border-top: 1px solid grey;  
+	padding: 2em 0;
+	margin: 0 5px;
+	
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+
+	.main-nav li{
+		display: inline;
+		background: #f2f2f2;
+		margin: 0 30px;
+	}
+	.main-nav {
+		margin: 20px;
+	}
+
+	.my-info img {
+		float: right;
+		width: 50%;
+	}
+
+	.my-info p {
+		float: left;
+		width: 50%;
+		text-align: left;
+		padding-right: 5px; 
+	}
+
+	.section {
+		float: left;
+		width: 50%;
+	}
+
+	.section img {
+		width: 290px;
+	}
+
+	.section p {
+		height: 75px;
+		margin-left: 10px;
+	}
+
+	.contact {
+		margin: 0 4em;
+	}
+
+	.footer-nav p{
+		display: none;
+	}
+
+	.footer-nav li {
+		display: inline-block;
+		float: right;
+		margin: 0 10px;
+	}
+
+
+	.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+}
+
+@media (min-width: 1024px){
+	.main-header,
+	.main-footer {
+		width: 100%;
+		max-width:1220px;
+	}
+
+	.main-header .name{
+        float:left;
+        margin-left:20px;
+    }
+        
+    .main-nav ul{
+        float:right;
+        margin-right: 20px;
+        padding: 20px 0;
+    }
+
+    .my-info {
+    	width: 90%;
+    	margin: 0 50px;
+    }
+
+	.section {
+        width: 30%;
+        margin: 12px 15px 12px 12px;
+        
+    }
+
+    .section img {
+    	width: 100%;
+    }
+
+    #skills{
+        margin-top: 50px;
+    }
+        
+    /*float clearfix*/
+    .clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}    
+
+}
+/*
+////////////TODO////////////////
+
+Github qcel
+stugel mihatel
+u vse
+
+*/
